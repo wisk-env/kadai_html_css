@@ -56,8 +56,11 @@ body {
     display: block;
 }
 
-.counseling-button {
+.orange-color {
     background-color: #f79214;
+}
+
+.menu-tab-button {
     color: #fff;
     border-radius: 40px;
     border: none;
@@ -105,4 +108,25 @@ body {
 
 .main-img-contents img:nth-child(2){
     width: 40%;
+}
+
+.main-contents-buttons button {
+    height: 64px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 38px;
+}
+
+.main-contents-buttons .contact-btn {
+    width: 306px;
+    margin-right: 15px;
+    color: #fff;
+    border: none;
+}
+
+.main-contents-buttons .download-btn {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    width: 176px;
+    color: #333;
 }
