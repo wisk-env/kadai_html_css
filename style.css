@@ -5,6 +5,7 @@
 
 body {
     font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MS Ｐゴシック","MS PGothic",sans-serif;
+    font-weight: 500;
 }
 
 .page-header{
@@ -129,4 +130,59 @@ body {
     border: 1px solid #e0e0e0;
     width: 176px;
     color: #333;
+}
+
+.note {
+    font-size: 12px;
+    color: #a2a2a4;
+}
+
+.about {
+    padding: 44px 0;
+    color: #fff;
+}
+
+.about-container {
+    max-width: 1140px;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-container video{
+    width: 500px;
+    height: 300px;
+}
+
+.about-text {
+    margin-left: 32px;
+}
+
+.about-text h2 {
+    font-size: 38px;
+    letter-spacing: .1em;
+    margin-bottom: 10px;
+}
+
+.about-text h2 span {
+    font-family: 'Lato', sans-serif;
+}
+
+.about-text p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+.about-text .content-link {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-text .content-link::before {
+    
 }
