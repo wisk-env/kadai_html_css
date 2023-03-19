@@ -152,8 +152,7 @@ body {
 }
 
 .about-container video{
-    width: 500px;
-    height: 300px;
+    width: 50%;
 }
 
 .about-text {
@@ -177,7 +176,9 @@ body {
     line-height: 26px;
 }
 
-.about-text .content-link {
+.about-text a {
+    color: #fff;
+    text-decoration: none;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 16px;
