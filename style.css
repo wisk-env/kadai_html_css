@@ -232,6 +232,47 @@ body {
     width: 100%;
 }
 
+.about {
+    padding: 30px 0;
+}
+
+.about-container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container video {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.about-text {
+    margin-left: 0;
+}
+
+.about-text h2 span {
+    letter-spacing: 1px;
+}
 
 }
+ 
+@media screen and (max-width: 1024px) and (min-width: 768px) {
     
+.about-container {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container video{
+    width: 75%;
+    margin-bottom: 16px;
+}
+
+.about-text {
+    width: 75%;
+    margin-left: 0px;
+}
+
+} 
