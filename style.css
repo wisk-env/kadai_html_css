@@ -7,11 +7,6 @@ body {
     font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MS Ｐゴシック","MS PGothic",sans-serif;
 }
 
-.top-content{
-    background-image: url('https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg');
-    height: 1000px;
-}
-
 .page-header{
     width: 100%;
     position: absolute;
@@ -39,7 +34,7 @@ body {
 }
 
 .menu-list a{
-    color: black;
+    color: #333;
     text-decoration: none;
 }
 
@@ -53,7 +48,7 @@ body {
     font-size: 14px;
     display: block;
     font-weight: 700;
-    font-color: #333;
+    color: #333;
 }
 
 .menu-font-bottom{
@@ -72,7 +67,42 @@ body {
     margin: 0;
 }
 
-.img-test{
-    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
-    height: 1000px;
+.main-content{
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0 28px 0;
+}
+
+.main-container-center {
+    max-width: 1140px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.main-container-left {
+    margin-bottom: 70px;
+    width: fit-content;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 38px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+}
+
+.main-img-contents {
+    margin-bottom: 25px;
+}
+
+.main-img-contents img{
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.main-img-contents img:nth-child(2){
+    width: 40%;
 }
