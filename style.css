@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MS Ｐゴシック","MS PGothic",sans-serif;
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MS　Ｐゴシック","MS PGothic",sans-serif;
     font-weight: 500;
 }
 
@@ -25,6 +25,11 @@ body {
     display: block;
     width: auto;
     height: 20px;
+    transition: opacity 0.2s;
+}
+
+.header-img img:hover {
+    opacity: 0.8;
 }
 
 .menu-list {
@@ -42,6 +47,11 @@ body {
 .menu-tab{
     text-align: center;
     margin-right: 45px;
+    transition: opacity 0.2s;
+}
+
+.menu-tab:hover {
+    opacity: 0.8;
 }
 
 .menu-font-top{
@@ -55,6 +65,7 @@ body {
 .menu-font-bottom{
     font-size: 10px;
     display: block;
+    font-weight: 700;
 }
 
 .orange-color {
@@ -69,7 +80,14 @@ body {
     font-size: 12px;
     height: 40px;
     margin: 0;
+    cursor: pointer;
+    transition: opacity 0.2s;
 }
+
+.menu-tab-button:hover {
+    opacity: 0.65;
+}
+
 
 .main-content{
     background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
@@ -132,6 +150,12 @@ body {
     margin-right: 15px;
     color: #fff;
     border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.main-contents-buttons .contact-btn:hover {
+    opacity: 0.7;
 }
 
 .main-contents-buttons .download-btn {
@@ -139,6 +163,12 @@ body {
     border: 1px solid #e0e0e0;
     width: 176px;
     color: #333;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.main-contents-buttons .download-btn:hover {
+    opacity: 0.7;
 }
 
 .note {
@@ -353,43 +383,13 @@ main {
     top: 100%;
 }
 
+.header-nav .header-nav-hamburger .header-nav-hamburger-line::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
 .menu-list {
-    display: block;
-    background-color: rgba(0,0,0,0.8);
-    position: fixed;
-    top: 60px;
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-    padding: 20px 0 75px;
-    z-index: 99;
-    left: 100%;
-    transform: translateX(-100%);
-    transition: transform 0.5s;
-}
-
-.menu-list .menu-tab {
-    padding: 20px 0;
-    margin-right: 0;
-}
-
-.menu-font-top {
-    color: #fff;
-    font-size: 16px;
-    letter-spacing: 5px;
-}
-
-.menu-font-bottom {
-    color: #f79214;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-}
-
-.menu-tab-button {
-    width: 250px;
-    height: 60px;
-    font-size: 16px;
+    display: none;
 }
 
 } 
