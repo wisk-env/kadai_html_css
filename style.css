@@ -248,6 +248,10 @@ body {
     height: 16px;
 }
 
+.header-img img:hover {
+    opacity: 1;
+}
+
 main {
     padding-top: 52px;
 }
@@ -293,6 +297,10 @@ main {
 
 .main-contents-buttons .contact-btn {
     width: 100%;
+}
+
+.main-contents-buttons .contact-btn:hover {
+    opacity: 1;
 }
 
 .about {
