@@ -21,7 +21,7 @@ body {
     margin: 0 36px;
 }
 
-.heder-img img{
+.header-img img{
     display: block;
     width: auto;
     height: 20px;
@@ -200,6 +200,22 @@ body {
 body {
     overflow-x: hidden;
 }
+
+.page-header{
+    padding: 15px 0;
+}
+
+.header-content {
+    margin: 0 20px;
+}
+
+.header-img img{
+    height: 16px;
+}
+
+main {
+    padding: 0;
+}
         
 .main-content{
     background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp");
@@ -281,15 +297,20 @@ body {
 
 } 
 
+@media screen and (max-width: 1080px) and (min-width: 768px) {
+    
+main {
+    padding-top: 60px;
+}
+
+}
+
+
 @media screen and (max-width: 1080px) {
 
 .page-header{
     background-color: #fff;
     position: fixed;
-}
-
-main {
-    padding-top: 60px;
 }
 
 .header-content{
